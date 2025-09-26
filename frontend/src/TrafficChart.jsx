@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 
 // CHANGE THIS to your VPS address, e.g. http://123.45.67.89:8000/traffic
-const VPS_API = 'http://YOUR_VPS_IP:8000/traffic'
+const VPS_API = 'http://171.22.18.15:8000/traffic'
 
 export default function TrafficChart() {
   const [data, setData] = useState([])
